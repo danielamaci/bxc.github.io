@@ -1,0 +1,35 @@
+title: The BxC toolkit
+subtitle: A swift generator for 3D MHD turbulence
+email: daniela.maci@kuleuven.be
+baseurl: /
+logo: "/assets/images/mini_logo.png"
+title_only_logo: false
+description: >-
+  BxC toolkit
+permalink: pretty
+
+minimal_mistakes_skin: "contrast"
+search: false
+
+footer:
+  links:
+    - label: "BxC toolkit on github"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/danielamaci/bxc.github.io
+
+# Build settings
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock
+
+# this is needed because Sphinx creates directories with _ prepended, which
+# are not copied by Jekyll. Just the folder name is sufficient, full path doesn't work.
+include:
+  - _static
+  - _modules
+  - _sources

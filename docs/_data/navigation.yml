@@ -1,0 +1,12 @@
+main:
+  - title: "Home"
+    url: /index
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: /publications/
+  - title: "Features"
+    url: /features/
+  - title: "User Guide"
+    url: /user_guide/
+
