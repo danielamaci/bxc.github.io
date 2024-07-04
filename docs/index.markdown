@@ -11,7 +11,7 @@ intro:
 capabilities:
   - image_path: /assets/images/mix.png
     excerpt:
-      In addition to having an actual “look-and-feel” resemblance to turbulent fields, BxC-generated fields also match physical turbulent flows in terms of higher order statistics, compared to actual DNS simulastions. The relatively simple python-implementation allows for full user-controlled customization of the power spectrum as well as the inclusion of realistic features such as anisotropy and background structured topologies.  
+      In addition to having an actual “look-and-feel” resemblance to turbulent fields, BxC-generated fields also match physical turbulent flows in terms of higher order statistics, compared to actual DNS simulations. The relatively simple Python-implementation allows for full user-controlled customization of the power spectrum as well as the inclusion of realistic features such as anisotropy and background structured topologies.  
     title: Capabilities    
     url: /features
     btn_label: See more
@@ -28,14 +28,14 @@ feature_row:
 
   - image_path: /assets/images/3D.png
     excerpt:
-      The development of BxC took and still takes a lot of time and effort. We kindly ask that **the first published peer-reviewed paper from applying BxC is done in co-authorship with at least one of the original authors**. Additionally, if you use BxC in a publication we kindly request that you cite the code paper.
+      The development of BxC took and still takes a lot of time and effort. We kindly ask that the first published peer-reviewed paper from applying BxC is done in co-authorship with at least one of the original authors. Additionally, if you use BxC in a publication we kindly request that you cite the code paper.
     title: Using BxC 
     url: /publications
     btn_label: Published works
     btn_class: btn--primary
 
-  - image_path: /assets/images/prominent.png
-    excerpt: BxC is supported by funding from the European Research Council (ERC) under the European Unions Horizon 2020 research and innovation programme, Grant agreement No. 833251 PROMINENT ERC-ADG 2018; the project received funding from the Internal Funds KU Leuven, Project No. C14/19/089 TRACESpace, and Agence Nationale de la Recherche, project BxB:ANR-17-CE31-0022, the latter in collaboration with F. Boulanger (project leader, ENS Paris), K. Ferrière (IRAP Toulouse), P. Lesaffre (ENS Paris)
+  - image_path: /assets/images/funds.png
+    excerpt: BxC is supported by funding from the European Research Council (ERC) under the European Unions Horizon 2020 research and innovation programme, Grant agreement No. 833251 PROMINENT ERC-ADG 2018; the project received funding from the Internal Funds KU Leuven, Project No. C14/19/089 TRACESpace, and Agence Nationale de la Recherche, project BxB:ANR-17-CE31-0022.
     title: Fundings
     url: https://erc-prominent.github.io/
     btn_label: erc PROMINENT
@@ -45,6 +45,6 @@ feature_row:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
-
 {% include feature_row id="capabilities" type="left" %}
+
+{% include feature_row %}

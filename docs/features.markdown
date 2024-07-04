@@ -3,28 +3,28 @@ layout: single
 title: Features
 permalink: /features/
 
-ps:
-  - image_path: /assets/images/ps.png
-    excerpt: Power Spectra
-pdf:
-  - image_path: /assets/images/pdf.png
-    excerpt: PDF of increments 
-sf: 
+prova:
   - image_path: /assets/images/structure.png
     excerpt: Structure functions
-
+  
+  - image_path: /assets/images/structure.png
+    excerpt: Structure functions
 ---
-BxC generates data cubes of turbulent magnetic fields, that are realistic both from a visual and statistical point of view. One of the main advantages of BxC lies in the many degrees of freedom users have in order to customize the generated fields. 
+BxC generates data cubes of turbulent magnetic fields, that are realistic both from a visual and statistical point of view. One of the main advantages of BxC lies in the many degrees of freedom users have in order to customize the generated fields. For more details about the implemented features, see the published [paper](https://iopscience.iop.org/article/10.3847/1538-4365/ad4bdf)
 
-Through user-controlled parameters, BxC generates turbulent fields that have:
+Here are some examples of user-controlled features that BxC generates turbulent fields can have:
 
 | **Hierarchically structured magnetic eddies and current sheets** |
 |:----:| 
 | ![3d](/assets/images/3D.png) | 
 
-| **Intermittency** | **Fully customizable power spectrum** |
+| **Fully customizable and controllable power spectrum** |
+|:----:| 
+| ![ps](/assets/images/spectrum.png) | 
+
+| **Intermittency** | **Multifractality** |
 |:--: | :--: | 
-| ![Intermittency](/assets/images/incr.png) | ![ps](/assets/images/spectrum.png) |
+| ![Intermittency](/assets/images/incr.png) | ![exp](/assets/images/exponents.png) |
 
 | **Anisotropy** | **Background topologies** |
 |:--: | :--: | 
