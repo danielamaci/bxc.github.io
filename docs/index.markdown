@@ -11,7 +11,7 @@ intro:
 capabilities:
   - image_path: /assets/images/mix.png
     excerpt:
-      In addition to having an actual “look-and-feel” resemblance to turbulent fields, BxC-generated fields also match physical turbulent flows in terms of higher order statistics, compared to actual DNS simulations. The relatively simple Python-implementation allows for full user-controlled customization of the power spectrum as well as the inclusion of realistic features such as anisotropy and background structured topologies.  
+      In addition to having an actual “look-and-feel” resemblance to turbulent fields, BxC-generated fields also match physical turbulent flows in terms of higher order statistics, compared to actual DNS simulations. The relatively simple Python implementation allows for full user-controlled customization of the power spectrum as well as the inclusion of realistic features such as anisotropy and background structured topologies.  
     title: Capabilities    
     url: /features
     btn_label: See more
@@ -20,7 +20,7 @@ capabilities:
 feature_row:
   - image_path: /assets/images/python.png
     excerpt: 
-      BxC is fully implemented in Python. The relatively simple structure of the code makes it extremely user-friendly and easy to use. The Python-implementation also facilitates the post-processing of data, for which users can readily use their own routines. 
+      BxC is fully implemented in Python. The relatively simple structure of the code makes it extremely user-friendly and easy to use. The Python implementation also facilitates the post-processing of data, for which users can readily use their own routines. 
     title: Getting started
     url: /user_guide
     btn_label: User Guide

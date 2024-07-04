@@ -12,7 +12,7 @@ prova:
 ---
 BxC generates data cubes of turbulent magnetic fields, that are realistic both from a visual and statistical point of view. One of the main advantages of BxC lies in the many degrees of freedom users have in order to customize the generated fields. For more details about the implemented features, see the published [paper](https://iopscience.iop.org/article/10.3847/1538-4365/ad4bdf)
 
-Here are some examples of user-controlled features that BxC generates turbulent fields can have:
+Here are some examples of user-controlled features that BxC-generated turbulent fields can have:
 
 | **Hierarchically structured magnetic eddies and current sheets** |
 |:----:| 

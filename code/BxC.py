@@ -7,7 +7,7 @@ Choose the parameters in the parameters.py file before running the script
 from parameters import *
 from fields_functions import *
 
-print('Generating B field at resolution ' + str(N) + 'and background topolgy ' + str(B0_model))
+print('Generating B field at resolution ' + str(N) + ' and background topology: ' + str(B0_model) )
 
 if B0_model == 'none':  ## Build the purely turbulent magnetic and current density field
     alpha = 1  # == no filtering
@@ -46,5 +46,20 @@ else: ## Build turbulent magnetic field with background structure
     
     # j = build_j(B)  # Uncomment if you also need the current density field of the total turbulent field
 
-print('Saving the Bfield in root folder')
+print('Saving the B field in root folder')
 np.savez('./B.npz', B=B)
+
+print('Saving a 2D visualization of the norm of the B field in root folder')
+
+# A minimalistic visualization tool, as a sanity check of the generated field
+from matplotlib import pyplot as plt
+
+def plot(sf):
+    plt.figure(figsize = (7, 7))
+    plt.imshow(sf)
+    plt.colorbar(shrink = 0.8)
+    plt.title('Bnorm - 2D slice')
+    plt.savefig('./Bnorm_slice.jpg', bbox_inches = 'tight')
+    return
+
+plot(np.sqrt(B[0,:,:,N//2]**2 + B[1,:,:,N//2]**2 + B[2,:,:,N//2]**2))

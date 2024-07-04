@@ -18,10 +18,10 @@ In order to run the sample visualization script, users need:
 - [Matplotlib](https://matplotlib.org/stable/) (2D plots)
 - [Pyvista](https://docs.pyvista.org/version/stable/) (3D plots)
 
-Note, however, that these packages are **not required** to run the code itself and user can use any Python data visualization library they prefer. 
+Note, however, that these packages are **not required** to run the code itself and users can use any Python data visualization library they prefer. 
 
 ## Download
-The BxC toolkit is available at the [Github repository](https://github.com/danielamaci/bxc.github.io) and can easily be obtained by cloning the online repository:
+The BxC toolkit is available at this [Github repository](https://github.com/danielamaci/bxc.github.io) and can easily be obtained by cloning the online repository:
 ```bash
 git clone https://github.com/danielamaci/bxc.github.io
 ```
@@ -41,17 +41,19 @@ First, all the imports are included in here. Afterwards you can find all the par
 **Note:** All the published results are generated with seed_wn=130.
 ![guide1](/assets/images/guide1.png)
 
-In the last part of the file, you find the input parameters of the modified Biot-Savart law. These parameters are responsible for the customization of the power spectrum, according to the relations written in the [table](/user_guide.markdown/#power-spectrum-customization). 
+In the last part of the file, you find the input parameters of the modified Biot-Savart law. These parameters are responsible for the customization of the power spectrum, according to the relations written in this [table](/user_guide.markdown/#power-spectrum-customization). 
 ![guide2](/assets/images/guide2.png)
 
 ![guide2](/assets/images/guide3.png)
 
 
 ## Power spectrum customization
-Here you can find the set of relations for the customization of the power spectrum. For more details on the parameter study that has been conducted see the [article](https://arxiv.org/pdf/2405.09587). 
+Here you can find the set of relations telling how the power spectrum varies as the user varies the parameters of the code. For more details on the parameter study that has been conducted see the [article](https://arxiv.org/pdf/2405.09587). 
 
 
 
 | Relations | Schematic representation |
 | :--: | :--: |
 | ![eqs](/assets/images/eqs.png) | ![sketch](/assets/images/sketch.png) |
+
+The notation (par;*), where par = LB, hB, or ηB, is used when a feature does not depend on “par” only, but the other parameters on which it depends are kept constant to the reference value.
