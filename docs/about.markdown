@@ -20,7 +20,7 @@ See the page [Features](/features.markdown) for a more detailed explanation of B
 
 
 ## Development team
-BxC was developed at the [Centre for mathematical Plasma Astrophysics](https://wis.kuleuven.be/CmPA) at the KU Leuven, Belgium, under the supervision of Prof. Rony Keppens. The main people involved in the development process are:
+BxC was developed at the [Centre for mathematical Plasma Astrophysics](https://wis.kuleuven.be/CmPA) at the KU Leuven, Belgium, under the supervision of Prof. Rony Keppens. The people involved in the development process are:
 - Dr. Jean-Baptiste Durrive  ([<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:jdurrive@irap.omp.eu)): creator of the code and development team
 - Drs. Daniela Maci ([<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:daniela.maci@kuleuven.be)): main developer, web-page creator and users-support
 - Prof. Rony Keppens ([<i class="fas fa-envelope" aria-hidden="true"></i>](mailto:rony.keppens@kuleuven.be)): guidance
